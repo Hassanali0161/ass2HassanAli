@@ -1,51 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="css/style.css" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Faith Charity</title>
+<style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            text-align: center;
+
+            background-color: white;
+
+            color: black;
+
+        }
+
+        /* Header Section */
+
+        .header {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 15px 40px;
+
+            border-bottom: 2px solid black;
+
+            background-color: white;
+
+        }
+
+        .logo img {
+
+            height: 50px;
+
+        }
+
+        .nav {
+
+            flex-grow: 1;
+
+            text-align: center;
+
+        }
+
+        .nav a {
+
+            margin: 0 15px;
+
+            text-decoration: none;
+
+            color: black;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+        }
+
+        .nav a:hover {
+
+            text-decoration: underline;
+
+        }
+
+        .social-icons img {
+
+            height: 25px;
+
+            margin-left: 10px;
+
+        }
+
+        /* Main Content */
+
+        .content {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 40px 80px;
+
+            text-align: center;
+
+            max-width: 1200px;
+
+            margin: 0 auto;
+
+        }
+
+        .left, .right {
+
+            width: 20%;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            color: gray;
+
+        }
+
+        .center {
+
+            width: 60%;
+
+        }
+
+        .center h2 {
+
+            font-size: 22px;
+
+            font-weight: bold;
+
+            margin-bottom: 15px;
+
+        }
+
+        .center p {
+
+            font-size: 16px;
+
+            line-height: 1.6;
+
+            color: black;
+
+        }
+
+        /* Footer Section */
+
+        .footer {
+
+            border-top: 2px solid black;
+
+            padding: 15px;
+
+            font-size: 14px;
+
+            margin-top: 40px;
+
+            background-color: white;
+
+            color: black;
+
+        }
+</style>
 </head>
 <body>
-<header>
+<!-- Header Section -->
+<div class="header">
 <div class="logo">
-<img src="images/Faith charity.png" alt="Faith Logo">
-<span>Faith</span>
+<img src="faith-logo.png" alt="Faith Charity Logo">
 </div>
-<nav>
-<ul>
-<li><a href="index.html">Homepage</a></li>
-<li><a href="page/about us.html">About Us</a></li>
-<li><a href="page/Sign up.html">Sign up</a></li>
-<li><a href="page/Dates & fees.html">Dates & fees</a></li>
-<li><a href="page/Educational Games.html">Educational Games</a></li>
-<li><a href="page/Event History.html">Events History</a></li>
-</ul>
-</nav>
+<div class="nav">
+<a href="#">Homepage</a>
+<a href="#">About Us</a>
+<a href="#">Sign up</a>
+<a href="#">Dates & Fees</a>
+<a href="#">Educational Games</a>
+<a href="#">Events History</a>
+</div>
 <div class="social-icons">
-<img src="images/Linkdin.png" alt="LinkedIn">
-<img src="images/X.png" alt="X (Twitter)">
-<img src="images/Instagram.png" alt="Instagram">
+<img src="linkedin-icon.png" alt="LinkedIn">
+<img src="x-icon.png" alt="X">
+<img src="instagram-icon.png" alt="Instagram">
 </div>
-</header>
-<main>
-<aside class="left">image</aside>
-<section class="content">
-<h1>Welcome to the Faith charity</h1>
+</div>
+<!-- Main Content -->
+<div class="content">
+<div class="left">image</div>
+<div class="center">
+<h2>Welcome to the Faith charity</h2>
 <p>
-               Dummy text is placeholder text that is used in publishing and web design to occupy the space which will later be filled with 'real' content.
-               It is used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
-</p>
-<p>
-               Lorem ipsum is a type of dummy text that has been used since the 1500s as a placeholder for content. It provides a semi-normal
-               distribution of words and letters and is used by numerous web page editors as the default text for model sites.
-</p>
-</section>
-<aside class="right">animation</aside>
-</main>
-<footer>
-<p>&copy; Footer</p>
-</footer>
-</body>
-</html>
 
+                Dummy text is placeholder text that is used in publishing and web design to occupy the space 
+
+                which will later be filled with 'real' content. It is used to demonstrate the visual form of a 
+
+                document or a typeface without relying on meaningful content.
+</p>
+<p>
+
+                Lorem ipsum is a type of dummy text that has been used since the 1500s as a placeholder for content. 
+
+                It provides a semi-normal distribution of words and letters and is used by numerous web page 
+
+                editors as the default text for model sites.
+</p>
+</div>
+<div class="right">animation</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+&copy; Footer
+</div>
+</body>
+</html> 
