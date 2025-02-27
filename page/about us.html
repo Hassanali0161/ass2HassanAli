@@ -3,88 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Footer Page</title>
+<title>Faith Charity</title>
 <style>
-      body {
-   font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px 20px;
-   background-color: #f5f5f5;
-   border-bottom: 2px solid black;
-}
-.logo {
-   display: flex;
-   align-items: center;
-}
-.logo img {
-   width: 50px;
-   height: 50px;
-   margin-right: 10px;
-}
-nav ul {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-   display: flex;
-}
-nav ul li {
-   margin: 0 10px;
-}
-nav ul li a {
-   text-decoration: none;
-   color: black;
-   font-weight: bold;
-}
-.social-icons img {
-   width: 30px;
-   height: 30px;
-   margin: 0 5px;
-}
-main {
-   display: flex;
-   justify-content: space-between;
-   padding: 20px;
-}
-aside {
-   width: 20%;
-   font-size: 20px;
-   font-weight: bold;
-}
-.content {
-   width: 60%;
-   text-align: left;
-}
-footer {
-   padding: 10px;
-   background-color: #f5f5f5;
-   border-top: 2px solid black;
-}
-nav ul li:first-child a {
- color: blue;
- text-decoration: underline;
-    }   
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           text-align: center;
+       }
+       .header {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 10px 20px;
+           border-bottom: 1px solid black;
+       }
+       .logo img {
+           height: 50px;
+       }
+       .nav {
+           flex-grow: 1;
+           text-align: center;
+       }
+       .nav a {
+           margin: 0 10px;
+           text-decoration: none;
+           color: black;
+           font-weight: bold;
+       }
+       .nav a:hover {
+           text-decoration: underline;
+       }
+       .social-icons img {
+           height: 30px;
+           margin-left: 10px;
+       }
+       .content {
+           display: flex;
+           justify-content: space-between;
+           padding: 20px;
+           text-align: center;
+       }
+       .left, .right {
+           width: 20%;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       .center {
+           width: 60%;
+       }
+       .footer {
+           border-top: 1px solid black;
+           padding: 10px;
+           margin-top: 20px;
+       }
 </style>
 </head>
 <body>
-<div class="footer">
+<div class="header">
 <div class="logo">
 <img src="faith-logo.png" alt="Faith Charity Logo">
-<div>
+</div>
+<div class="nav">
 <a href="#">Homepage</a>
-<a href="#">About us</a>
+<a href="#">About Us</a>
 <a href="#">Sign up</a>
 <a href="#">Dates & fees</a>
-<a href="#">Educational</a>
-<a href="#">Games</a>
-<a href="#">Event</a>
-<a href="#">History</a>
+<a href="#">Educational Games</a>
+<a href="#">Events History</a>
 </div>
 <div class="social-icons">
 <img src="linkedin-icon.png" alt="LinkedIn">
@@ -92,25 +78,26 @@ nav ul li:first-child a {
 <img src="instagram-icon.png" alt="Instagram">
 </div>
 </div>
-</div>
-<h2>About us</h2>
-<p>
-       Dummy text is placeholder text that is used in publishing and web design to occupy the space
-       which will later be filled with 'real' content. It is used to demonstrate the visual form of a
-       document or a typeface without relying on meaningful content.
-</p>
-<p>
-       Lorem ipsum is a type of dummy text that has been used since the 1500s as a placeholder for content.
-       It provides a semi-normal distribution of words and letters, and is used by numerous web page
-       editors as the default text for model sites.
-</p>
 <div class="content">
 <div class="left">image</div>
-<div class="center"></div>
-<div class="right">video</div>
+<div class="center">
+<h2>Welcome to the Faith charity</h2>
+<p>
+               Dummy text is placeholder text that is used in publishing and web design to occupy the space
+               which will later be filled with 'real' content. It is used to demonstrate the visual form of a
+               document or a typeface without relying on meaningful content.
+</p>
+<p>
+               Lorem ipsum is a type of dummy text that has been used since the 1500s as a placeholder for content.
+               It provides a semi-normal distribution of words and letters and is used by numerous web page
+               editors as the default text for model sites.
+</p>
+</div>
+<div class="right">animation</div>
 </div>
 <div class="footer">
-<p>&copy; Footer</p>
+&copy; Footer
 </div>
 </body>
 </html>
+has context menu
